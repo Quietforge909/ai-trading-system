@@ -1,0 +1,9 @@
+# Optional dependency inventory for the original source, not a version lock.
+# No installation is needed for examples.offline_demo.
+numpy
+pandas
+pyarrow
+torch
+catboost
+scikit-learn
+requests

@@ -1,0 +1,42 @@
+# Credentials and local identities
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+id_rsa*
+id_ed25519*
+
+# Python environments and generated files
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.DS_Store
+
+# Private datasets, weights and experiment artifacts
+data/
+train_ready/
+models/
+checkpoints/
+experiments/
+catboost_info/
+*.pt
+*.pth
+*.ckpt
+*.cbm
+*.safetensors
+*.parquet
+*.pkl
+*.pickle
+*.npz
+*.npy
+*.log
+
+# Exchange account state and generated live artifacts
+live/state/
+live/runtime/
+live/*.json
+live/*.lock

@@ -1,0 +1,242 @@
+{
+  "source_snapshot": "preserved_original_2026-07-19",
+  "scope": "selected original source and local Python import closure; no v2 rebuild code",
+  "source_files": [
+    {
+      "path": "features/causal_final_feature.py",
+      "sha256": "a7fe1e2d62a959e203ad82a1d56283de830972a43d85ef7848591fc75efba63f",
+      "unchanged_original_source": true
+    },
+    {
+      "path": "features/continuity.py",
+      "sha256": "cdc8a53a93dbda3454d87e49ad1a2c6cbd251f35483fd537e741b2cd6e85a600",
+      "unchanged_original_source": true
+    },
+    {
+      "path": "features/global_feature_builder.py",
+      "sha256": "16b950c12659aecbd09add712a5ae6202c33819628b18d9d0eccd46b80a4b410",
+      "unchanged_original_source": true
+    },
+    {
+      "path": "features/main_feature_builder.py",
+      "sha256": "23b140952ba17b10ed693416d0f521bb417028a5e78b4ee590c2c0d3b383cc19",
+      "unchanged_original_source": true
+    },
+    {
+      "path": "features/pipeline_v3.py",
+      "sha256": "1f2b6e74927f18ef65651aa4fe145ac306c7b78e4169ac3a9ff928b55aa69282",
+      "unchanged_original_source": true
+    },
+    {
+      "path": "features/pipeline_v3_recent.py",
+      "sha256": "ebf1a84639ee5716414ad1c8810af5a0bcb21147e3dd9446fe2248db7a1efba6",
+      "unchanged_original_source": true
+    },
+    {
+      "path": "fetchers/fetch_kraken_full_history.py",
+      "sha256": "5dfbd38d496a5713857df20f723a281f606a0ea9e54a4f30d61490ca26b1c460",
+      "unchanged_original_source": true
+    },
+    {
+      "path": "live/__init__.py",
+      "sha256": "483b61508572697364faa6a9830bdf4f2b82094a402b780c3370742cd7a053aa",
+      "unchanged_original_source": true
+    },
+    {
+      "path": "live/account.py",
+      "sha256": "8c0fb9886b33bd3a9c05e062df8a544ba686442018e5e18c52c3700b2b402d1c",
+      "unchanged_original_source": true
+    },
+    {
+      "path": "live/config.py",
+      "sha256": "5e68fbd431dd84ae3d343f8d8e2081cfe73df91db00ca28b20c890f7e9cfd21b",
+      "unchanged_original_source": true
+    },
+    {
+      "path": "live/data_pipeline.py",
+      "sha256": "bca2799515bc397901f0804b37ea7557176514dabfef08db14a8dae9e6628e31",
+      "unchanged_original_source": true
+    },
+    {
+      "path": "live/discord_reporter.py",
+      "sha256": "fc529544ff43c4401d503d0868dbff8b3485c3fc9fd4d5f9b18ed5ceed341d77",
+      "unchanged_original_source": true
+    },
+    {
+      "path": "live/executor.py",
+      "sha256": "b7a291350e62c627a26d77f7a2580986fed05de8b8ca136359b334a9d4125ade",
+      "unchanged_original_source": true
+    },
+    {
+      "path": "live/kraken_client.py",
+      "sha256": "53a87ffe622ce3d21698f24a6e48b067c5325ea3956826e74661b620e58f1cd2",
+      "unchanged_original_source": true
+    },
+    {
+      "path": "live/live_daemon.py",
+      "sha256": "9503f6a6d5df973c8d06e2b639fcc680d7225e1967b20a7b740a27042ebf120e",
+      "unchanged_original_source": true
+    },
+    {
+      "path": "live/model_runner.py",
+      "sha256": "592cfe9ac9ee91136e1bd34204025c77d6356fef2d0e2c254252c72144c28c81",
+      "unchanged_original_source": true
+    },
+    {
+      "path": "live/state.py",
+      "sha256": "295ed5b24022013dcb4d5fb3ddfba2b9ccee014cf3c9ded8de481379295b0cd1",
+      "unchanged_original_source": true
+    },
+    {
+      "path": "rl/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "unchanged_original_source": true
+    },
+    {
+      "path": "rl/agent/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "unchanged_original_source": true
+    },
+    {
+      "path": "rl/agent/joint_policy.py",
+      "sha256": "99551e5a6fb6e533b5b79e6606ca0f71d509b52a71418eee44dfcc7e231f6f9f",
+      "unchanged_original_source": true
+    },
+    {
+      "path": "rl/agent/joint_ppo.py",
+      "sha256": "d3df0714e703bd303f78e95ad7409719d5499fd5c47ea909f1ce23ce55234d0d",
+      "unchanged_original_source": true
+    },
+    {
+      "path": "rl/agent/model.py",
+      "sha256": "7870c2b785b9aca5a451f23a3621f02614867c9948995c4807eed32fc68ab7e4",
+      "unchanged_original_source": true
+    },
+    {
+      "path": "rl/config.py",
+      "sha256": "947ae9407e42d2bc0fa2888b38615eca328618364a0f0f8602caaf916349347f",
+      "unchanged_original_source": true
+    },
+    {
+      "path": "rl/env/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "unchanged_original_source": true
+    },
+    {
+      "path": "rl/env/coin_history_context.py",
+      "sha256": "28d6e1028bab3f6d81a119f2594ef0cae1b087105fa1debf907f40daf70003bd",
+      "unchanged_original_source": true
+    },
+    {
+      "path": "rl/env/multi_env.py",
+      "sha256": "a8fcc858eb0c9134ac38412952d975e850a55fa180c2a7ec29df05b5df97d126",
+      "unchanged_original_source": true
+    },
+    {
+      "path": "rl/env/multi_portfolio.py",
+      "sha256": "615a768b3ee52f186951dd7f7df7c3bbb6951304cd814f8bb9a74acccf39334e",
+      "unchanged_original_source": true
+    },
+    {
+      "path": "rl/env/multi_selector.py",
+      "sha256": "71226843b7af3e9bf5af6cd89424d2eab1884597e23aa547e2528ef816960b1e",
+      "unchanged_original_source": true
+    },
+    {
+      "path": "rl/env/portfolio.py",
+      "sha256": "b5508e04f20e4e75d65f55e13eea9d5571a9f9a8d5064ea55ad36bb67db9a47c",
+      "unchanged_original_source": true
+    },
+    {
+      "path": "rl/env/sub_features.py",
+      "sha256": "75784db62d3ba1d2778b7f6d5801e3a16d30764556443ee54240e438d4813e4d",
+      "unchanged_original_source": true
+    },
+    {
+      "path": "rl/evaluation/evaluate_kraken_full_universe_recent.py",
+      "sha256": "a99ef9e6c6bd1f4d57336fa49393c3f80b34e2530dc021dee8d07aa44e74c1ad",
+      "unchanged_original_source": true
+    },
+    {
+      "path": "rl/evaluation/evaluate_kraken_realistic_v280.py",
+      "sha256": "4b2153e7134fd7780e85e0d4eed99ae831a43dc7f5b0ca10e51c41bf724b8610",
+      "unchanged_original_source": true
+    },
+    {
+      "path": "rl/evaluation/evaluate_phase1_v7.py",
+      "sha256": "ea392cf9057230a5a94c8dba47eab05f03d581f54e37354a887d27c5776b00e1",
+      "unchanged_original_source": true
+    },
+    {
+      "path": "rl/evaluation/evaluate_random_v7.py",
+      "sha256": "80ad06210694f885f8487e7c4ebc82aba174dad7fb78a10f53234ecaa1c75c75",
+      "unchanged_original_source": true
+    },
+    {
+      "path": "rl/evaluation/evaluate_v7.py",
+      "sha256": "b65971b67cce5df2725b3170a789d96355ab790034bd083c0da74c8f67dcd55c",
+      "unchanged_original_source": true
+    },
+    {
+      "path": "rl/evaluation/phase_gate.py",
+      "sha256": "f169743aaecf17e77925ec8fc03ed820e441c2094f674ace03cf2194419f15ac",
+      "unchanged_original_source": true
+    },
+    {
+      "path": "rl/training/legacy_resume_compat.py",
+      "sha256": "2a898ba8ad8c02fc3f3018b982d7feb37f8de0a96b4dcadecff6dcac7d16b195",
+      "unchanged_original_source": true
+    },
+    {
+      "path": "rl/training/trainer_v7.py",
+      "sha256": "4dfcc5fdd0d87a737514a6cbaeec5cdfe33f53164c6fde8d117f08cebbf1148e",
+      "unchanged_original_source": true
+    },
+    {
+      "path": "rl/training/v41_full_universe_resume_compat.py",
+      "sha256": "4e130faa001b29e34b523468884cec46ea9d1d7f12afb43e040ac5f5b65f6a5c",
+      "unchanged_original_source": true
+    },
+    {
+      "path": "supervised/dataset_v2.py",
+      "sha256": "06b4af3e0b61ab14006432907cefb314cfc7731f2b3cf1edb873bb15eddde45e",
+      "unchanged_original_source": true
+    },
+    {
+      "path": "supervised/dataset_v3.py",
+      "sha256": "3b18bcb2f53152db7cf2a4f811ad9b139f8a65e31fddf6cbbe08cb29263fb37b",
+      "unchanged_original_source": true
+    },
+    {
+      "path": "supervised/inference_live.py",
+      "sha256": "0b7c79bcd7a8ff2eec18c9b3baf1625e4785b2e12b751c72e47992446ef54980",
+      "unchanged_original_source": true
+    },
+    {
+      "path": "supervised/inference_v2.py",
+      "sha256": "bbcbc5003ff07f0adc2101c49cc49a9957bb6a8628ec2c39a1841ee6e8519da5",
+      "unchanged_original_source": true
+    },
+    {
+      "path": "supervised/spec_v2.py",
+      "sha256": "ddef9b2ac03611e59b5d9f8e6de0277a28f1d0b3e0c91bbcbf757c7ba466b83c",
+      "unchanged_original_source": true
+    },
+    {
+      "path": "supervised/spec_v3.py",
+      "sha256": "5a6e3f86f19f1955f198f921ba8d41ce37b25052242927933fe5c9c7ab0d03b9",
+      "unchanged_original_source": true
+    },
+    {
+      "path": "supervised/train_v2.py",
+      "sha256": "6f8a4db75748e53320bb1f603f04cde326f9a818b4b84a394a155e4f0f3c6d2f",
+      "unchanged_original_source": true
+    },
+    {
+      "path": "supervised/walk_forward_v3.py",
+      "sha256": "58372bf3778f7894e0c658f87f3999d860a53bad768fecefdbe965fecede6a56",
+      "unchanged_original_source": true
+    }
+  ],
+  "private_runtime_data_checkpoints_and_logs_included": false
+}
