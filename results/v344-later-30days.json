@@ -1,0 +1,82 @@
+{
+  "kind": "saved_historical_full_market_backtest",
+  "model": "v344-episode23",
+  "source_filename": "v344e23_recent30d_binance_full_universe_control.json",
+  "source_report_sha256": "e0c897cad01a6c9bd4bfa5d80fb26db2d10fa09e2dccf88f7a0ea5009cc717eb",
+  "starting_cash_usd": 1000,
+  "checkpoint_sha256": "4546f4b0c1f72cc8807a44a27d34a1432901fedeb152134b130955bcba8bbaea",
+  "policy": {
+    "stochastic": false,
+    "temperature": 1.0,
+    "seed": 123
+  },
+  "realism": {
+    "side_cost_bps": 15.0,
+    "fee_rate": 0.005,
+    "kraken_min_size_precision_costmin": true,
+    "execution": "observe candle t, fill at next candle open; terminal liquidation at final close",
+    "buy_prob_threshold": 0.0
+  },
+  "requested_rows": 720,
+  "used_rows": 720,
+  "available_full_window_coins": 261,
+  "summary": {
+    "start": "2026-06-18T18:00:00+00:00",
+    "end": "2026-07-18T17:00:00+00:00",
+    "coins": 261,
+    "rows": 720,
+    "pnl": -61.64576130355442,
+    "return": -0.06164576130355437,
+    "max_drawdown": -0.30515282087821505,
+    "trades": 4,
+    "manual_sells": 4,
+    "forced_sells": 0,
+    "forced_sell_ratio": 0.0,
+    "gross_profit": 21.752363696609052,
+    "gross_loss": 83.3981250001635,
+    "profit_factor": 0.26082557247619664,
+    "win_rate": 0.5,
+    "mean_trade_return": -0.061645761303701446,
+    "median_trade_return": -0.01190301343678726,
+    "mean_exposure": 0.5887936587390885,
+    "max_exposure": 0.999999999999802,
+    "actions": {
+      "noop": 711,
+      "buy": 4,
+      "sell": 4
+    },
+    "rejected": {}
+  },
+  "trades": [
+    {
+      "coin": "TLMUSDT",
+      "entry_ts": "2026-07-02T19:00:00+00:00",
+      "exit_ts": "2026-07-18T13:00:00+00:00",
+      "pnl": -69.8222590027066
+    },
+    {
+      "coin": "ANKRUSDT",
+      "entry_ts": "2026-06-25T14:00:00+00:00",
+      "exit_ts": "2026-07-18T14:00:00+00:00",
+      "pnl": 14.128004417397449
+    },
+    {
+      "coin": "MINAUSDT",
+      "entry_ts": "2026-07-02T22:00:00+00:00",
+      "exit_ts": "2026-07-18T15:00:00+00:00",
+      "pnl": 7.624359279211603
+    },
+    {
+      "coin": "RAYUSDT",
+      "entry_ts": "2026-07-02T20:00:00+00:00",
+      "exit_ts": "2026-07-18T16:00:00+00:00",
+      "pnl": -13.575865997456901
+    }
+  ],
+  "notes": [
+    "Historical simulation, not live exchange orders.",
+    "Uses the saved next-open realism evaluator with15bps per-side execution cost and0.5% per-side fees.",
+    "Different dates and execution assumptions from the200-episode screen; do not combine their metrics.",
+    "Published to show a loss case as well as the positive development screen."
+  ]
+}
